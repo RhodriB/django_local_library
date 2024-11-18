@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		99FB68042CD4EB3800E6047D /* __init__.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "__init__.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68052CD4EB3800E6047D /* admin.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "admin.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68062CD4EB3800E6047D /* apps.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "apps.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68072CD4EB3800E6047D /* models.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "models.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68082CD4EB3800E6047D /* urls.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "urls.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68092CD4EB3800E6047D /* views.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "views.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB680B2CD4EB3800E6047D /* __init__.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "__init__.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB680C2CD4EB3800E6047D /* 0001_initial.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0001_initial.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB680D2CD4EB3800E6047D /* 0002_language_and_more.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0002_language_and_more.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB680E2CD4EB3800E6047D /* 0003_alter_book_isbn.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0003_alter_book_isbn.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB680F2CD4EB3800E6047D /* 0004_alter_book_genre.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0004_alter_book_genre.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68102CD4EB3800E6047D /* 0005_alter_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0005_alter_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68112CD4EB3800E6047D /* 0006_remove_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0006_remove_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68122CD4EB3800E6047D /* 0007_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0007_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68132CD4EB3800E6047D /* 0008_alter_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0008_alter_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68142CD4EB3800E6047D /* 0009_alter_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0009_alter_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68152CD4EB3800E6047D /* 0010_remove_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0010_remove_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68162CD4EB3800E6047D /* 0011_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0011_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68172CD4EB3800E6047D /* 0012_alter_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0012_alter_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68182CD4EB3800E6047D /* 0013_alter_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0013_alter_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68192CD4EB3800E6047D /* 0014_alter_genre_name.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0014_alter_genre_name.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB681A2CD4EB3800E6047D /* 0015_alter_genre_name_and_more.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0015_alter_genre_name_and_more.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB681B2CD4EB3800E6047D /* 0016_remove_genre_genre_name_case_insensitive_unique_and_more.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0016_remove_genre_genre_name_case_insensitive_unique_and_more.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB681C2CD4EB3800E6047D /* 0017_bookinstance_borrower.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0017_bookinstance_borrower.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB681D2CD4EB3800E6047D /* 0018_alter_bookinstance_options.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "0018_alter_bookinstance_options.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB681F2CD4EB3800E6047D /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		99FB68202CD4EB3800E6047D /* 0001_initial.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0001_initial.py; sourceTree = "<group>"; };
+		99FB68212CD4EB3800E6047D /* 0002_language_and_more.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0002_language_and_more.py; sourceTree = "<group>"; };
+		99FB68222CD4EB3800E6047D /* 0003_alter_book_isbn.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0003_alter_book_isbn.py; sourceTree = "<group>"; };
+		99FB68232CD4EB3800E6047D /* 0004_alter_book_genre.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0004_alter_book_genre.py; sourceTree = "<group>"; };
+		99FB68242CD4EB3800E6047D /* 0005_alter_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0005_alter_genre_name.py; sourceTree = "<group>"; };
+		99FB68252CD4EB3800E6047D /* 0006_remove_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0006_remove_genre_name.py; sourceTree = "<group>"; };
+		99FB68262CD4EB3800E6047D /* 0007_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0007_genre_name.py; sourceTree = "<group>"; };
+		99FB68272CD4EB3800E6047D /* 0008_alter_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0008_alter_genre_name.py; sourceTree = "<group>"; };
+		99FB68282CD4EB3800E6047D /* 0009_alter_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0009_alter_genre_name.py; sourceTree = "<group>"; };
+		99FB68292CD4EB3800E6047D /* 0010_remove_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0010_remove_genre_name.py; sourceTree = "<group>"; };
+		99FB682A2CD4EB3800E6047D /* 0011_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0011_genre_name.py; sourceTree = "<group>"; };
+		99FB682B2CD4EB3800E6047D /* 0012_alter_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0012_alter_genre_name.py; sourceTree = "<group>"; };
+		99FB682C2CD4EB3800E6047D /* 0013_alter_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0013_alter_genre_name.py; sourceTree = "<group>"; };
+		99FB682D2CD4EB3800E6047D /* 0014_alter_genre_name.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0014_alter_genre_name.py; sourceTree = "<group>"; };
+		99FB682E2CD4EB3800E6047D /* 0015_alter_genre_name_and_more.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0015_alter_genre_name_and_more.py; sourceTree = "<group>"; };
+		99FB682F2CD4EB3800E6047D /* 0016_remove_genre_genre_name_case_insensitive_unique_and_more.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0016_remove_genre_genre_name_case_insensitive_unique_and_more.py; sourceTree = "<group>"; };
+		99FB68302CD4EB3800E6047D /* 0017_bookinstance_borrower.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0017_bookinstance_borrower.py; sourceTree = "<group>"; };
+		99FB68312CD4EB3800E6047D /* 0018_alter_bookinstance_options.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = 0018_alter_bookinstance_options.py; sourceTree = "<group>"; };
+		99FB68332CD4EB3800E6047D /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		99FB68362CD4EB3800E6047D /* author_detail.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = author_detail.html; sourceTree = "<group>"; };
+		99FB68372CD4EB3800E6047D /* author_list.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = author_list.html; sourceTree = "<group>"; };
+		99FB68382CD4EB3800E6047D /* book_detail.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = book_detail.html; sourceTree = "<group>"; };
+		99FB68392CD4EB3800E6047D /* book_list.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = book_list.html; sourceTree = "<group>"; };
+		99FB683A2CD4EB3800E6047D /* bookinstance_list_all_borrowed.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bookinstance_list_all_borrowed.html; sourceTree = "<group>"; };
+		99FB683B2CD4EB3800E6047D /* bookinstance_list_borrowed_user.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bookinstance_list_borrowed_user.html; sourceTree = "<group>"; };
+		99FB683D2CD4EB3800E6047D /* base_generic.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = base_generic.html; sourceTree = "<group>"; };
+		99FB683E2CD4EB3800E6047D /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		99FB68402CD4EB3800E6047D /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		99FB68412CD4EB3800E6047D /* admin.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = admin.py; sourceTree = "<group>"; };
+		99FB68422CD4EB3800E6047D /* apps.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = apps.py; sourceTree = "<group>"; };
+		99FB68432CD4EB3800E6047D /* models.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = models.py; sourceTree = "<group>"; };
+		99FB68452CD4EB3800E6047D /* urls.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = urls.py; sourceTree = "<group>"; };
+		99FB68462CD4EB3800E6047D /* views.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = views.py; sourceTree = "<group>"; };
+		99FB68482CD4EB3800E6047D /* __init__.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "__init__.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB68492CD4EB3800E6047D /* settings.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "settings.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB684A2CD4EB3800E6047D /* urls.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "urls.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB684B2CD4EB3800E6047D /* wsgi.cpython-312.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wsgi.cpython-312.pyc"; sourceTree = "<group>"; };
+		99FB684D2CD4EB3800E6047D /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		99FB684E2CD4EB3800E6047D /* asgi.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = asgi.py; sourceTree = "<group>"; };
+		99FB684F2CD4EB3800E6047D /* settings.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = settings.py; sourceTree = "<group>"; };
+		99FB68502CD4EB3800E6047D /* urls.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = urls.py; sourceTree = "<group>"; };
+		99FB68512CD4EB3800E6047D /* wsgi.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = wsgi.py; sourceTree = "<group>"; };
+		99FB68532CD4EB3800E6047D /* logged_out.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = logged_out.html; sourceTree = "<group>"; };
+		99FB68542CD4EB3800E6047D /* login.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
+		99FB68552CD4EB3800E6047D /* password_reset_complete.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = password_reset_complete.html; sourceTree = "<group>"; };
+		99FB68562CD4EB3800E6047D /* password_reset_confirm.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = password_reset_confirm.html; sourceTree = "<group>"; };
+		99FB68572CD4EB3800E6047D /* password_reset_done.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = password_reset_done.html; sourceTree = "<group>"; };
+		99FB68582CD4EB3800E6047D /* password_reset_email.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = password_reset_email.html; sourceTree = "<group>"; };
+		99FB68592CD4EB3800E6047D /* password_reset_form.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = password_reset_form.html; sourceTree = "<group>"; };
+		99FB685C2CD4EB3800E6047D /* db.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite3; sourceTree = "<group>"; };
+		99FB685D2CD4EB3800E6047D /* locallibrary.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = locallibrary.xcworkspace; sourceTree = "<group>"; };
+		99FB685E2CD4EB3800E6047D /* manage.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = manage.py; sourceTree = "<group>"; };
+		99FB68602CD4ED0100E6047D /* forms.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = forms.py; sourceTree = "<group>"; };
+		99FB68612CD4F85A00E6047D /* book_renew_librarian.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = book_renew_librarian.html; sourceTree = "<group>"; };
+		99FB68622CD5284F00E6047D /* author_form.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = author_form.html; sourceTree = "<group>"; };
+		99FB68632CD5297F00E6047D /* author_confirm_delete.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = author_confirm_delete.html; sourceTree = "<group>"; };
+		99FB68642CD9192F00E6047D /* book_confirm_delete.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = book_confirm_delete.html; sourceTree = "<group>"; };
+		99FB68652CD91AFB00E6047D /* book_form.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = book_form.html; sourceTree = "<group>"; };
+		99FB686B2CDA432500E6047D /* __init__.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		99FB686C2CDA432500E6047D /* test_forms.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test_forms.py; sourceTree = "<group>"; };
+		99FB686D2CDA432500E6047D /* test_models.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test_models.py; sourceTree = "<group>"; };
+		99FB686E2CDA432500E6047D /* test_views.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = test_views.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		99FB67FD2CD4EAF200E6047D = {
+			isa = PBXGroup;
+			children = (
+				99FB685F2CD4EB3800E6047D /* locallibrary */,
+			);
+			sourceTree = "<group>";
+		};
+		99FB680A2CD4EB3800E6047D /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				99FB68042CD4EB3800E6047D /* __init__.cpython-312.pyc */,
+				99FB68052CD4EB3800E6047D /* admin.cpython-312.pyc */,
+				99FB68062CD4EB3800E6047D /* apps.cpython-312.pyc */,
+				99FB68072CD4EB3800E6047D /* models.cpython-312.pyc */,
+				99FB68082CD4EB3800E6047D /* urls.cpython-312.pyc */,
+				99FB68092CD4EB3800E6047D /* views.cpython-312.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		99FB681E2CD4EB3800E6047D /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				99FB680B2CD4EB3800E6047D /* __init__.cpython-312.pyc */,
+				99FB680C2CD4EB3800E6047D /* 0001_initial.cpython-312.pyc */,
+				99FB680D2CD4EB3800E6047D /* 0002_language_and_more.cpython-312.pyc */,
+				99FB680E2CD4EB3800E6047D /* 0003_alter_book_isbn.cpython-312.pyc */,
+				99FB680F2CD4EB3800E6047D /* 0004_alter_book_genre.cpython-312.pyc */,
+				99FB68102CD4EB3800E6047D /* 0005_alter_genre_name.cpython-312.pyc */,
+				99FB68112CD4EB3800E6047D /* 0006_remove_genre_name.cpython-312.pyc */,
+				99FB68122CD4EB3800E6047D /* 0007_genre_name.cpython-312.pyc */,
+				99FB68132CD4EB3800E6047D /* 0008_alter_genre_name.cpython-312.pyc */,
+				99FB68142CD4EB3800E6047D /* 0009_alter_genre_name.cpython-312.pyc */,
+				99FB68152CD4EB3800E6047D /* 0010_remove_genre_name.cpython-312.pyc */,
+				99FB68162CD4EB3800E6047D /* 0011_genre_name.cpython-312.pyc */,
+				99FB68172CD4EB3800E6047D /* 0012_alter_genre_name.cpython-312.pyc */,
+				99FB68182CD4EB3800E6047D /* 0013_alter_genre_name.cpython-312.pyc */,
+				99FB68192CD4EB3800E6047D /* 0014_alter_genre_name.cpython-312.pyc */,
+				99FB681A2CD4EB3800E6047D /* 0015_alter_genre_name_and_more.cpython-312.pyc */,
+				99FB681B2CD4EB3800E6047D /* 0016_remove_genre_genre_name_case_insensitive_unique_and_more.cpython-312.pyc */,
+				99FB681C2CD4EB3800E6047D /* 0017_bookinstance_borrower.cpython-312.pyc */,
+				99FB681D2CD4EB3800E6047D /* 0018_alter_bookinstance_options.cpython-312.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		99FB68322CD4EB3800E6047D /* migrations */ = {
+			isa = PBXGroup;
+			children = (
+				99FB681E2CD4EB3800E6047D /* __pycache__ */,
+				99FB681F2CD4EB3800E6047D /* __init__.py */,
+				99FB68202CD4EB3800E6047D /* 0001_initial.py */,
+				99FB68212CD4EB3800E6047D /* 0002_language_and_more.py */,
+				99FB68222CD4EB3800E6047D /* 0003_alter_book_isbn.py */,
+				99FB68232CD4EB3800E6047D /* 0004_alter_book_genre.py */,
+				99FB68242CD4EB3800E6047D /* 0005_alter_genre_name.py */,
+				99FB68252CD4EB3800E6047D /* 0006_remove_genre_name.py */,
+				99FB68262CD4EB3800E6047D /* 0007_genre_name.py */,
+				99FB68272CD4EB3800E6047D /* 0008_alter_genre_name.py */,
+				99FB68282CD4EB3800E6047D /* 0009_alter_genre_name.py */,
+				99FB68292CD4EB3800E6047D /* 0010_remove_genre_name.py */,
+				99FB682A2CD4EB3800E6047D /* 0011_genre_name.py */,
+				99FB682B2CD4EB3800E6047D /* 0012_alter_genre_name.py */,
+				99FB682C2CD4EB3800E6047D /* 0013_alter_genre_name.py */,
+				99FB682D2CD4EB3800E6047D /* 0014_alter_genre_name.py */,
+				99FB682E2CD4EB3800E6047D /* 0015_alter_genre_name_and_more.py */,
+				99FB682F2CD4EB3800E6047D /* 0016_remove_genre_genre_name_case_insensitive_unique_and_more.py */,
+				99FB68302CD4EB3800E6047D /* 0017_bookinstance_borrower.py */,
+				99FB68312CD4EB3800E6047D /* 0018_alter_bookinstance_options.py */,
+			);
+			path = migrations;
+			sourceTree = "<group>";
+		};
+		99FB68342CD4EB3800E6047D /* css */ = {
+			isa = PBXGroup;
+			children = (
+				99FB68332CD4EB3800E6047D /* styles.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		99FB68352CD4EB3800E6047D /* static */ = {
+			isa = PBXGroup;
+			children = (
+				99FB68342CD4EB3800E6047D /* css */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		99FB683C2CD4EB3800E6047D /* catalog */ = {
+			isa = PBXGroup;
+			children = (
+				99FB68622CD5284F00E6047D /* author_form.html */,
+				99FB68652CD91AFB00E6047D /* book_form.html */,
+				99FB68612CD4F85A00E6047D /* book_renew_librarian.html */,
+				99FB68362CD4EB3800E6047D /* author_detail.html */,
+				99FB68372CD4EB3800E6047D /* author_list.html */,
+				99FB68382CD4EB3800E6047D /* book_detail.html */,
+				99FB68392CD4EB3800E6047D /* book_list.html */,
+				99FB683A2CD4EB3800E6047D /* bookinstance_list_all_borrowed.html */,
+				99FB683B2CD4EB3800E6047D /* bookinstance_list_borrowed_user.html */,
+				99FB68632CD5297F00E6047D /* author_confirm_delete.html */,
+				99FB68642CD9192F00E6047D /* book_confirm_delete.html */,
+			);
+			path = catalog;
+			sourceTree = "<group>";
+		};
+		99FB683F2CD4EB3800E6047D /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				99FB683C2CD4EB3800E6047D /* catalog */,
+				99FB683D2CD4EB3800E6047D /* base_generic.html */,
+				99FB683E2CD4EB3800E6047D /* index.html */,
+			);
+			path = templates;
+			sourceTree = "<group>";
+		};
+		99FB68472CD4EB3800E6047D /* catalog */ = {
+			isa = PBXGroup;
+			children = (
+				99FB68602CD4ED0100E6047D /* forms.py */,
+				99FB680A2CD4EB3800E6047D /* __pycache__ */,
+				99FB68322CD4EB3800E6047D /* migrations */,
+				99FB68352CD4EB3800E6047D /* static */,
+				99FB683F2CD4EB3800E6047D /* templates */,
+				99FB68402CD4EB3800E6047D /* __init__.py */,
+				99FB68412CD4EB3800E6047D /* admin.py */,
+				99FB68422CD4EB3800E6047D /* apps.py */,
+				99FB68432CD4EB3800E6047D /* models.py */,
+				99FB68452CD4EB3800E6047D /* urls.py */,
+				99FB68462CD4EB3800E6047D /* views.py */,
+				99FB686F2CDA432500E6047D /* tests */,
+			);
+			path = catalog;
+			sourceTree = "<group>";
+		};
+		99FB684C2CD4EB3800E6047D /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				99FB68482CD4EB3800E6047D /* __init__.cpython-312.pyc */,
+				99FB68492CD4EB3800E6047D /* settings.cpython-312.pyc */,
+				99FB684A2CD4EB3800E6047D /* urls.cpython-312.pyc */,
+				99FB684B2CD4EB3800E6047D /* wsgi.cpython-312.pyc */,
+			);
+			path = __pycache__;
+			sourceTree = "<group>";
+		};
+		99FB68522CD4EB3800E6047D /* locallibrary */ = {
+			isa = PBXGroup;
+			children = (
+				99FB684C2CD4EB3800E6047D /* __pycache__ */,
+				99FB684D2CD4EB3800E6047D /* __init__.py */,
+				99FB684E2CD4EB3800E6047D /* asgi.py */,
+				99FB684F2CD4EB3800E6047D /* settings.py */,
+				99FB68502CD4EB3800E6047D /* urls.py */,
+				99FB68512CD4EB3800E6047D /* wsgi.py */,
+			);
+			path = locallibrary;
+			sourceTree = "<group>";
+		};
+		99FB685A2CD4EB3800E6047D /* registration */ = {
+			isa = PBXGroup;
+			children = (
+				99FB68532CD4EB3800E6047D /* logged_out.html */,
+				99FB68542CD4EB3800E6047D /* login.html */,
+				99FB68552CD4EB3800E6047D /* password_reset_complete.html */,
+				99FB68562CD4EB3800E6047D /* password_reset_confirm.html */,
+				99FB68572CD4EB3800E6047D /* password_reset_done.html */,
+				99FB68582CD4EB3800E6047D /* password_reset_email.html */,
+				99FB68592CD4EB3800E6047D /* password_reset_form.html */,
+			);
+			path = registration;
+			sourceTree = "<group>";
+		};
+		99FB685B2CD4EB3800E6047D /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				99FB685A2CD4EB3800E6047D /* registration */,
+			);
+			path = templates;
+			sourceTree = "<group>";
+		};
+		99FB685F2CD4EB3800E6047D /* locallibrary */ = {
+			isa = PBXGroup;
+			children = (
+				99FB68472CD4EB3800E6047D /* catalog */,
+				99FB68522CD4EB3800E6047D /* locallibrary */,
+				99FB685B2CD4EB3800E6047D /* templates */,
+				99FB685C2CD4EB3800E6047D /* db.sqlite3 */,
+				99FB685D2CD4EB3800E6047D /* locallibrary.xcworkspace */,
+				99FB685E2CD4EB3800E6047D /* manage.py */,
+			);
+			name = locallibrary;
+			path = ../locallibrary;
+			sourceTree = SOURCE_ROOT;
+		};
+		99FB686F2CDA432500E6047D /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				99FB686B2CDA432500E6047D /* __init__.py */,
+				99FB686C2CDA432500E6047D /* test_forms.py */,
+				99FB686D2CDA432500E6047D /* test_models.py */,
+				99FB686E2CDA432500E6047D /* test_views.py */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		99FB67FE2CD4EAF200E6047D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+			};
+			buildConfigurationList = 99FB68012CD4EAF200E6047D /* Build configuration list for PBXProject "Local Library Project" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99FB67FD2CD4EAF200E6047D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		99FB68022CD4EAF200E6047D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		99FB68032CD4EAF200E6047D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99FB68012CD4EAF200E6047D /* Build configuration list for PBXProject "Local Library Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FB68022CD4EAF200E6047D /* Debug */,
+				99FB68032CD4EAF200E6047D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99FB67FE2CD4EAF200E6047D /* Project object */;
+}
