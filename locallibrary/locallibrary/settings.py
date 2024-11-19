@@ -34,7 +34,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-^(i%5g-zp(3#h+
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['RhodriB.pythonanywhere.com', '127.0.0.1']
+
+CSRF_TRUSTED_ORIGINS = ['https://RhodriB.pythonanywhere.com']
 
 
 # Application definition
